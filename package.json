@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "cordova-plugin-whitelist": "^1.3.4",
-    "monaca-plugin-monaca-core": "^3.2.1"
+    "monaca-plugin-monaca-core": "^3.3.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",

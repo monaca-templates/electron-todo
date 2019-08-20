@@ -29,11 +29,11 @@
     window.device = getDeviceObjectForPreview();
   }
  
-  if ((navigator.userAgent.match(/Android/i)) || (navigator.userAgent.match(/iPhone|iPad|iPod/i))) {
+  if ((navigator.userAgent.match(/Android/i)) || (navigator.userAgent.match(/iPhone|iPad|iPod/i)) || (navigator.userAgent.match(/Electron/gi))) {
     if (typeof location.href === "string") {
       var relativePath = location.href.split("/www")[1];
       var paths = relativePath.split("/");
-      var cordovaJsUrl = ""; 
+      var cordovaJsUrl = "";
       for (var i = 0; i < paths.length - 2; i++) {
         cordovaJsUrl += "../";
       }
