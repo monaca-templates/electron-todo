@@ -71,6 +71,8 @@
         <edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
             <string>need to photo library access to save pictures there</string>
         </edit-config>
+        <preference name="scheme" value="monaca-app"/>
+        <preference name="hostname" value="localhost"/>
     </platform>
     <platform name="electron">
         <preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
@@ -80,4 +82,5 @@
         <preference name="SplashScreenHeight" value="300"/>
         <preference name="ShowSplashScreen" value="false"/>
     </platform>
+    <preference name="MediaTypesRequiringUserActionForPlayback" value=""/>
 </widget>
