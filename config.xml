@@ -82,5 +82,4 @@
         <preference name="SplashScreenHeight" value="300"/>
         <preference name="ShowSplashScreen" value="false"/>
     </platform>
-    <preference name="MediaTypesRequiringUserActionForPlayback" value=""/>
 </widget>
