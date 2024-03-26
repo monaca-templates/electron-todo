@@ -5,7 +5,7 @@
     "darkTheme": true,
     "resizable": true,
     "webPreferences": {
-      "nodeIntegration": false
+      "nodeIntegration": true
     }
   }
 }
